@@ -1,6 +1,6 @@
 ## Yuke-Quest
 
-#                 requisitos: java 1.6 ou superior
+                requisitos: java 1.6 ou superior
 
 #                 EXECUTAR:
          baixe o jar "YukeQuest.jar" na pasta Jogo
