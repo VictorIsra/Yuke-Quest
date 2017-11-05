@@ -16,6 +16,7 @@
         
         Clique com o botão esquerdo do mouse para atirar        
         use as teclas 'w','s','a','d', para se movimentar para cima, baixo, esquerda, direita, respectivamente.                         
+     
         ITENS:
         
         pegue os corações para recuperar seu HP
