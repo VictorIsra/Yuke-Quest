@@ -138,10 +138,15 @@ public class Game_manager {
 	}
 	public void next_level() {
 		fase_counter ++;
-		if(fase_counter > 2)
+		//if(fase_counter > 2)
 			//fase_counter
 		qtdade_inimigos = 0;
-		game.event_handler(); 
+		//CORRECAO
+		//game.event_handler(); 
+		handler.kill();
+		prepara_level(fases.get(fase_counter),"/sprite_sheet.png");
+		seta_valores();
+		load_level(level);
 	}
 	public void prepara_level(String level_path, String ss_path) {
 		System.out.println("entrou prepara levl..ta bugado" + fase_counter);
